@@ -1,0 +1,85 @@
+#!/bin/bash
+sbatch template.dat
+sed -i  's/out 1/out 2/g' template.dat
+sed -i  's/o1/o2/g' template.dat
+sed -i  's/e1/e2/g' template.dat
+sbatch template.dat
+sed -i  's/out 2/out 3/g' template.dat 
+sed -i  's/o2/o3/g' template.dat
+sed -i  's/e2/e3/g' template.dat
+sbatch template.dat
+sed -i  's/out 3/out 4/g' template.dat 
+sed -i  's/o3/o4/g' template.dat
+sed -i  's/e3/e4/g' template.dat
+sbatch template.dat
+sed -i  's/out 4/out 5/g' template.dat 
+sed -i  's/o4/o5/g' template.dat
+sed -i  's/e4/e5/g' template.dat
+sbatch template.dat
+sed -i  's/out 5/out 6/g' template.dat 
+sed -i  's/o5/o6/g' template.dat
+sed -i  's/e5/e6/g' template.dat
+sbatch template.dat
+sed -i  's/out 6/out 7/g' template.dat 
+sed -i  's/o6/o7/g' template.dat
+sed -i  's/e6/e7/g' template.dat
+sbatch template.dat
+sed -i  's/out 7/out 8/g' template.dat 
+sed -i  's/o7/o8/g' template.dat
+sed -i  's/e7/e8/g' template.dat
+sbatch template.dat
+sed -i  's/out 8/out 9/g' template.dat 
+sed -i  's/o8/o9/g' template.dat
+sed -i  's/e8/e9/g' template.dat
+sbatch template.dat
+sed -i  's/out 9/out 10/g' template.dat 
+sed -i  's/o9/o10/g' template.dat
+sed -i  's/e9/e10/g' template.dat
+sbatch template.dat
+sed -i  's/out 10/out 11/g' template.dat 
+sed -i  's/o10/o11/g' template.dat
+sed -i  's/e10/e11/g' template.dat
+sbatch template.dat
+sed -i  's/out 11/out 12/g' template.dat 
+sed -i  's/o11/o12/g' template.dat
+sed -i  's/e11/e12/g' template.dat
+sbatch template.dat
+sed -i  's/out 12/out 13/g' template.dat 
+sed -i  's/o12/o13/g' template.dat
+sed -i  's/e12/e13/g' template.dat
+sbatch template.dat
+sed -i  's/out 13/out 14/g' template.dat 
+sed -i  's/o13/o14/g' template.dat
+sed -i  's/e13/e14/g' template.dat
+sbatch template.dat
+sed -i  's/out 14/out 15/g' template.dat
+sed -i  's/o14/o15/g' template.dat
+sed -i  's/e14/e15/g' template.dat
+sbatch template.dat 
+sed -i  's/out 15/out 16/g' template.dat 
+sed -i  's/o15/o16/g' template.dat
+sed -i  's/e15/e16/g' template.dat
+sbatch template.dat
+sed -i  's/out 16/out 17/g' template.dat
+sed -i  's/o16/o17/g' template.dat
+sed -i  's/e16/e17/g' template.dat 
+sbatch template.dat
+sed -i  's/out 17/out 18/g' template.dat
+sed -i  's/o17/o18/g' template.dat
+sed -i  's/e17/e18/g' template.dat 
+sbatch template.dat
+sed -i  's/out 18/out 19/g' template.dat 
+sed -i  's/o18/o19/g' template.dat
+sed -i  's/e18/e19/g' template.dat
+sbatch template.dat
+sed -i  's/out 19/out 20/g' template.dat 
+sed -i  's/o19/o20/g' template.dat
+sed -i  's/e19/e20/g' template.dat
+sbatch template.dat
+sed -i  's/out 20/out 21/g' template.dat 
+sed -i  's/o20/o21/g' template.dat
+sed -i  's/e20/e21/g' template.dat
+sbatch template.dat
+sed -i  's/out 21/out 1/g' template.dat 
+sed -i  's/o21/o1/g' template.dat
+sed -i  's/e21/e1/g' template.dat
